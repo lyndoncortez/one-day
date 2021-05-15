@@ -1,3 +1,21 @@
 User Story #1: As a User, I want to create an account as a Professional to publish a work immersion.
 User Story #2: As a User, I want to create an account as an Aspirant to search for a 1 day work experience.
 User Story #3: As a User, I want to login my credentials so that I can access my account in the app.
+
+Professional
+  User Story #1: As a Professional, I want to receive an email to confirm my pending Professional Account.
+  User Story #2: As a Professional, I want to be able to create my profile after confirming my account.
+  User Story #3: As a Professional, I want to be able to edit my profile account.
+  User Story #4: As a Professional, I want to be able to post immersion so that students can see details about the work.
+  User Story #5: As a Professional, I want to be able to see aspirants who applied for my posted work immersion.
+  User Story #6: As a Professional, I want to be able to approve or decline an application.
+  User Story #7: As a Professional, I want to be able to post a review for an aspirant after completing a work immersion.
+  User Story #8: As a Professional, I want to be able to earn points after completing a work immersion.
+
+Aspirant
+  User Story #1: As an Aspirant, I want to receive an email to confirm my pending Aspirant Account.
+  User Story #2: As an Aspirant, I want to be able to search for a work immersion and apply for it.
+  User Story #3: As an Aspirant, I want to be able to cancel my application as long as the professional haven't accepted it yet.
+  User Story #4: As an Aspirant, I want to be able to create my profile so that I could check my job history.
+  User Story #5: As an Aspirant, I want to be able to give reviews after completing a work immersion.
+  
