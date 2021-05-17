@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  devise_for :professionals
+  root to: "home#index"
+
+  get 'home/index'
+  get 'profile/professional' => 'home#professional_profile', as: 'home_professional_profile_path'
+
 end

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>1 Day</title>
+    <title>One Day</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -13,10 +13,6 @@
   <body>
     <%= render 'layouts/header' %>
     <%= render partial: 'shared/flash' %>
-    <% if professional_signed_in? %>
-      <%= yield %>
-    <% else %>
-      <%= render 'layouts/hero' %>
-    <% end %>
+    <%= yield %>
   </body>
 </html>

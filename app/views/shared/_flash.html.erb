@@ -1,0 +1,10 @@
+<% if flash.any? %>
+  <script type="text/javascript">
+    <% flash.each do |key, value| %>
+      <% type = key.to_s.gsub('alert', 'error').gsub('notice', 'success') %>
+        toastr.options.closeButton = true;
+        toastr.options.positionClass = "toast-top-center";
+        toastr.<%= type %>('<%= value %>')
+      <% end %>
+  </script>
+<% end %>
