@@ -1,1 +1,33 @@
 @import "toastr/toastr";
+@import "~bootstrap/scss/bootstrap";
+
+
+body {
+  background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+   height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.btn-dark {
+  background: rgba(44, 24, 61, 0.575);
+  border-style: none;
+}
+
+.hero-text {
+  font-size: 2.5rem !important;
+}
+
+.hero-main {
+  margin-top: 10%;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+}
+
+.nav-item:hover {
+  border-bottom:2px solid #43f9ff;
+}
