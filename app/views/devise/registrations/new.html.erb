@@ -1,0 +1,44 @@
+<main class="container pt-5 mt-5">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <div class="pb-3 pt-4 mt-5 text-start sign-up-div card mx-auto">
+        <div class="card-body text-white px-5">
+          <h3 class="text-center mb-4">CREATE AN ACCOUNT</h3>
+          <p class="text-center text-light mb-5">It's free and it only takes a minute.</p>
+
+          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+            <%= render "devise/shared/error_messages", resource: resource %>
+
+            <div class="field">
+              <%= f.label :email, class: "form-label" %><br />
+              <%= f.email_field :email, autofocus: true, autocomplete: "email", class: " mx-auto mb-4 form-control" %>
+            </div>
+
+            <div class="field">
+              <%= f.label :password, class: "form-label" %>
+              <%= f.password_field :password, autocomplete: "new-password", class: " mx-auto mb-4 form-control" %>
+            </div>
+
+            <div class="field">
+              <%= f.label :password_confirmation,  class: "form-label" %><br />
+              <%= f.password_field :password_confirmation, autocomplete: "new-password", class: " mx-auto mb-4 form-control" %>
+            </div>
+
+            <div class="actions">
+              <%= f.submit "Sign up", class: "form-label btn btn-lg btn-dark mt-1 w-100" %>
+            </div>
+          <% end %>
+            <div class="text-center mt-4">
+              <small>By Clicking the <span class="text-warning">Sign Up</span> button, you agree to our <span class="text-warning">Terms & Conditions</span>, and <span class="text-warning">Privacy Policy</span>.</small>
+            </div>
+
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  
+ 
+
+</main>
+
