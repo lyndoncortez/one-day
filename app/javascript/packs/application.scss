@@ -1,13 +1,12 @@
-@import "toastr/toastr";
 @import "~bootstrap/scss/bootstrap";
-
+@import "toastr/toastr";
 
 body {
-  background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
-   height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed
+  background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .btn-dark {
@@ -21,15 +20,15 @@ body {
 
 .hero-main {
   margin-top: 5%;
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 3.5px );
-  -webkit-backdrop-filter: blur( 3.5px );
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
 }
 
 .nav-item:hover {
-  border-bottom:2px solid #43f9ff;
+  border-bottom: 2px solid #43f9ff;
 }
 
 @keyframes slideIn {
@@ -93,10 +92,10 @@ footer {
 }
 
 .sign-up-div {
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   width: 65%;
 }
