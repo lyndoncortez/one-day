@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :professionals
+  devise_for :admins
+  devise_for :users
   root to: "home#index"
 
   get 'home/index'
-  get 'profile/professional' => 'home#professional_profile', as: 'home_professional_profile_path'
+  get 'home/professional' => 'home#professional', as: 'home_professional_path'
 
 end
